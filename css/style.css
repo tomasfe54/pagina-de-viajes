@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+main{
+    background-color: #DDE1E8;
+}
+
+/*barra de nav*/
+
+/*header*/
+.header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #DDE1E8;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/03/27/action-1867052_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.menu{
+    padding: 10px;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-weight: 900;
+    font-size: 25px;
+    color: #00000d;
+}
+.logo span{
+    color: #00639a;
+}
+.nav-list{
+    display: flex;
+    padding-left: 0;
+    gap: 40px;
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    color: #00000d;
+    font-weight: 700;
+    font-size: 15px;
+}
+.nav-list a:hover{
+color: #00639a;
+}
+.informacion{
+    flex: 1;
+    padding: 20px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.informacion-seccion{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.informacion-seccion h1{
+    color: #002d4d;
+}
+.informacion-seccion button{
+    padding: 10px;
+    border-radius: 10px;
+    padding-inline: 30px;
+    font-weight: 900;
+    background-color: #00a2f3;
+    border: 2px solid #00a2f3;
+}
+.informacion-seccion button:hover{
+    cursor: pointer;
+    border: #00ebff;
+    background-color: #00ebff;
+}
+/*galeria de imagenes*/
+.galeria{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+.galeria img{
+    width: 0px;
+    flex-grow: 2;
+    object-fit: cover;
+    transition: .7s ease;
+}
+.galeria img:hover{
+    width: 200px;
+    opacity: 1;
+    
+}
+/*comentarios*/
+.segundoTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.card img{
+    width: 200px;
+    border-radius:100px;    
+    margin: 40px;
+    padding: 10px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+}
+/*footer*/
+footer{
+    background-color: #002d4d;
+}
+
+
